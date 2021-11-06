@@ -1,0 +1,90 @@
+body{
+    background-color: #806dad;
+}
+#logo{
+    text-align: center;
+    font-size: 4em;
+}
+#container{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 550px;
+    height: 400px;
+ 
+}
+#display-area{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    width: 500px;
+    height: 350px;
+    background-color: #e9eaee;
+    top: 25px;
+    left: 25px;
+    border-radius: 0px;
+}
+#code{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    width: 400px;
+    height: 250px;
+    top: 50px;
+    left: 50px;
+    resize: none;
+    background-color: #fff;
+}
+#container .input_val{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+}
+#container .input_val input{
+    font: bold 15px Arial, Helvetica, sans-serif;
+    padding: 2px 4px;/*vertical horizontal*/
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 24px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    text-align: right; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+}
+
+#div1.input_val{
+    top: 25px;
+    left: -20px;
+    text-align: right;
+}
+#div4.input_val{
+    bottom: 0px;
+    left: -20px;
+    text-align: right;
+}
+#div2.input_val{
+    top: 25px;
+    right: -20px;
+    text-align: left;
+
+}
+#div3.input_val{
+    bottom: 0px;
+    right: -20px;
+    text-align: left;
+}
+#div1.input_val input, #div4.input_val input{
+    text-align: left;
+    right: auto;
+    left: 0;
+}
+#div2.input_val input, #div3.input_val input{
+    /*top: auto;
+    bottom: -1px;*/
+    text-align: right;
+    left: auto;
+    right: 0;
+}

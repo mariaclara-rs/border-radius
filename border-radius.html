@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Border-Radius</title>
+        <link rel="stylesheet" type="text/css" href="css/brEstilo.css" />
+    </head>
+
+    <body onload="init()" onselectstart="return false">
+        <div id="logo">Border Radius</div>
+        <div id="container" >
+            <div class="input_val" id="div1" ><!--se-->
+                <input type="text" id="val1" onkeypress="return observe_input_keypress(event)" onkeyup="Update()" max="100"/>
+            </div>
+            <div class="input_val" id="div2"><!--sd-->
+                <input type="text" id="val2" onkeypress="return observe_input_keypress(event)" onkeyup="Update()" max="100"/>
+            </div>
+            <div class="input_val" id="div3"><!--id-->
+                <input type="text" id="val3" onkeypress="return observe_input_keypress(event)" onkeyup="Update()" max="100"/>
+            </div>
+            <div class="input_val" id="div4"><!--ie-->
+                <input type="text" id="val4" onkeypress="return observe_input_keypress(event)" onkeyup="Update()" max="100"/>
+            </div>
+            <div id="display-area">
+                <textarea disabled id="code"></textarea>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <script src="script/script.js"></script>
+    </footer>
+</html>
